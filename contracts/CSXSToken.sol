@@ -113,7 +113,7 @@ contract CSXSToken is StandardToken, Ownable
 
     bool public allowBuying = true;
 
-    uint private constant initialSupply = 10 * 10**9; // 9.999 Billions
+    uint private constant initialSupply = 9.999 * 10**(9+decimals); // 9.999 Billions
     address private initialSupplyOwner;
     
     // Fallback function and Constructor
